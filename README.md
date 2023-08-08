@@ -9,6 +9,10 @@ yolov8 行人检测模型
 ## 模型训练记录
 可以在 doc 目录下查看
 
+### 其中:
+- yolov8s 使用默认参数，cfg 用的是[fusion.yaml](configs%2Ffusion.yaml), 
+- yolov8n 修改了loss权重，cfg使用了[default.yaml](configs%2Fdefault.yaml)
+
 
 ## 模型文件说明
 未来会增加rknn, tensorrt, 以及ncnn 的部署模型
