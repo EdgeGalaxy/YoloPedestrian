@@ -12,6 +12,7 @@ yolov8 行人检测模型
 ### 其中:
 - yolov8s 使用默认参数，cfg 用的是[fusion.yaml](configs%2Ffusion.yaml), 
 - yolov8n 修改了loss权重，cfg使用了[default.yaml](configs%2Fdefault.yaml)
+- yolov8s-vis-body 修改上述数据集中的Crowdhuman, 将full-body 改成vis-body, 并重新整合了数据
 
 
 ## 模型文件说明
